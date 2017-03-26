@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सिम्पली</string>
+    <string name="AlertPackets">औषध शेअर सूचना सेट पॅकेट 0 अक्षम करण्यासाठी</string>
+    <string name="add">जोडा</string>
+    <string name="addNewMed">नवीन औषध जोडा</string>
+    <string name="addNewMember">नवीन सदस्य जोडण्यासाठी</string>
+    <string name="added">" जोडले"</string>
+    <string name="adding">जोडला जात आहे</string>
+    <string name="call102">तुला खात्री आहे?</string>
+    <string name="calender">कॅलेंडर</string>
+    <string name="call102message">संदेश आपले तात्काळ संपर्क पाठविला जाईल</string>
+    <string name="cancel">रद्द</string>
+    <string name="confirmExit">खात्री आहे की आपण मधून निर्गमन करू इच्छिता आहे?</string>
+    <string name="contactEmer">कॉल 102</string>
+    <string name="days">दिवस</string>
+    <string name="delete">हटवू</string>
+    <string name="deleting">हटवला जात आहे</string>
+    <string name="edit">" संपादन"</string>
+    <string name="emergency">आणीबाणी</string>
+    <string name="emergencyMode">आणीबाणी मोड चालू</string>
+    <string name="enterMedName">औषध नाव प्रविष्ट</string>
+    <string name="enterName">नाव प्रविष्ट</string>
+    <string name="enterPhoneNumber">फोन नंबर प्रविष्ट</string>
+    <string name="error">" त्रुटी"</string>
+    <string name="exit">बाहेर?</string>
+    <string name="hasToTake">घेणे आवश्यक आहे</string>
+    <string name="left">बाकी</string>
+    <string name="medicine">औषध</string>
+    <string name="medicineTime">औषध वेळ!</string>
+    <string name="medicines">औषधे</string>
+    <string name="member">सदस्य</string>
+    <string name="members">सदस्य</string>
+    <string name="news">बातम्या</string>
+    <string name="no">नाही</string>
+    <string name="none">काहीही नाही</string>
+    <string name="number1">संख्या 1</string>
+    <string name="number2">संख्या 2</string>
+    <string name="number3">संख्या 3</string>
+    <string name="only">फक्त</string>
+    <string name="remove">काढायचे?</string>
+    <string name="removed">काढले</string>
+    <string name="removing">" काढले जात आहे"</string>
+    <string name="runOut">औषध संपलेल्या!</string>
+    <string name="runShort">औषधे कमी आहे</string>
+    <string name="settings">सेटिंग</string>
+    <string name="skip">सोडा</string>
+    <string name="successful">" यशस्वी"</string>
+    <string name="sureRemove">आपली खात्री आहे की आपण काढू इच्छित आहात?</string>
+    <string name="taken">घेतले</string>
+    <string name="time">" वेळ"</string>
+    <string name="update">" सुधारणा"</string>
+    <string name="updating">" अद्यतनित केले जात आहे"</string>
+    <string name="yes">होय</string>
+    <string name="workers">कामगार</string>
+    <string name="isRunOut">" अनुपलब्ध"</string>
+    <string-array name="fragmentTitle">
+        <item>@string/calender</item>
+        <item>@string/workers</item>
+        <item>@string/medicines</item>
+        <item>@string/emergency</item>
+        <item>@string/news</item>
+        <item>@string/settings</item>
+    </string-array>
+</resources>

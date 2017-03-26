@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    tools:context="com.akshenkadakia.homeutility.DayListFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/medDayMarginTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:textAlignment="center"
+        android:textSize="@dimen/medDayTextSize"
+        android:textColor="@color/medDayTextColor"/>
+
+</LinearLayout>

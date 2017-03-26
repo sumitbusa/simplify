@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lang">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:checked="true"
+            android:textSize="@dimen/normalText"
+            android:id="@+id/english"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hindi"
+            android:textSize="@dimen/normalText"
+            android:id="@+id/hindi"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Marathi"
+            android:textSize="@dimen/normalText"
+            android:id="@+id/marathi"/>
+
+    </RadioGroup>
+</RelativeLayout>

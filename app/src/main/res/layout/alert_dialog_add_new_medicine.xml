@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:animateLayoutChanges="true">
+
+    <EditText
+        android:id="@+id/newMedicineDialogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:focusable="true"
+        android:hint="Medicine Name"
+        android:maxLines="1"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@drawable/input_outline"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/textSmallSize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AlertPackets"
+        android:textColor="@color/secondary_text"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:id="@+id/packetAlertText"
+        android:layout_below="@+id/newMedicineDialogName"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Packets"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/packetAlertText"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_marginLeft="@dimen/marginLeft">
+        <TextView
+            android:id="@+id/tvPackets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Packets:"
+            android:textSize="@dimen/textSmallSize" />
+
+        <Button
+            android:id="@+id/decrementPackets"
+            android:layout_marginRight="@dimen/marginLeft"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="-"
+            android:textSize="@dimen/textSmallSize"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:id="@+id/textPackets"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="@dimen/textSmallSize"/>
+
+        <Button
+            android:id="@+id/incrementPackets"
+            android:layout_marginRight="@dimen/marginLeft"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="+"
+            android:textSize="@dimen/textSmallSize"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tablets"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/Packets"
+        android:animateLayoutChanges="true"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/marginLeft"
+        android:layout_marginLeft="@dimen/marginLeft">
+        <TextView
+            android:id="@+id/tvTablets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tablets:"
+            android:textSize="@dimen/textSmallSize" />
+
+        <Button
+            android:id="@+id/decrementTablets"
+            android:layout_marginRight="@dimen/marginLeft"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="-"
+            android:textSize="@dimen/textSmallSize"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:id="@+id/textTablets"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="@dimen/textSmallSize"/>
+
+        <Button
+            android:id="@+id/incrementTablets"
+            android:layout_marginRight="@dimen/marginLeft"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="+"
+            android:textSize="@dimen/textSmallSize"
+            style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

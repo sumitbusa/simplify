@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newMemberDialogName"
+        android:hint="Member Name"
+        android:focusable="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/textSmallSize"
+        android:padding="12dp"
+        android:layout_margin="6dp"
+        android:background="@drawable/input_outline"
+        android:textColor="@color/primary_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/textSmallSize"
+        android:id="@+id/newMemberDialogNotificationText"
+        android:layout_below="@id/newMemberDialogName"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSmallSize"
+        android:layout_toLeftOf="@id/newMemberDialogNotificationText"
+        android:layout_below="@id/newMemberDialogName"
+        android:layout_alignParentRight="true"
+        android:id="@+id/newMemberDialogNotificationSwitch" />
+
+
+</RelativeLayout>

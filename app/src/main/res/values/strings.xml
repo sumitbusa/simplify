@@ -1,0 +1,118 @@
+<resources>
+    <!--app values-->
+    <string name="app_name">Simplify</string>
+    <string name="package_name">com.akshenkadakia.homeutility</string>
+
+    <!--settings data-->
+    <string name="english">English</string>
+    <string name="Hindi">हिन्दी</string>
+    <string name="Marathi">मराठी</string>
+    <string name="prefLocale">com.akshenkadakia.homeutility.prefLocale</string>
+    <string name="prefTextSize">com.akshenkadakia.homeutility.prefTextSize</string>
+    <string name="ok">OK</string>
+    <string name="category_numbers">Numbers</string>
+
+    <!--animation-->
+    <integer name="durationAnimator">400</integer>
+
+
+    /<!--for home activity-->
+    <string name="homeGridCol">2</string>
+
+    <string name="calender">Calender</string>
+    <string name="workers">Workers</string>
+    <string name="medicines">Medicines</string>
+    <string name="emergency">Emergency</string>
+    <string name="news">News</string>
+    <string name="settings">Settings</string>
+    <string-array name="fragmentTitle">
+        <item>@string/calender</item>
+        <item>@string/workers</item>
+        <item>@string/medicines</item>
+        <item>@string/emergency</item>
+        <item>@string/news</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <integer-array name="fragmentIcon">
+        <item>@drawable/ic_event_black_48dp</item>
+        <item>@drawable/ic_people_black_48dp</item>
+        <item>@drawable/ic_add_alert_black_48dp</item>
+        <item>@drawable/ic_local_hospital_black_48dp</item>
+        <item>@drawable/ic_trending_up_black_48dp</item>
+        <item>@drawable/ic_settings_black_48dp</item>
+    </integer-array>
+
+    <string name="exit">Exit?</string>
+    <string name="confirmExit">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+
+    <!-- extras-->
+    <string name="error">Error</string>
+    <string name="delete">Delete</string>
+    <string name="successful">Successful</string>
+    <string name="deleting">Deleting</string>
+
+    <!-- day-list adapter-->
+    <string name="time">Time</string>
+    <string name="member">MEMBER</string>
+    <string name="medicine">MEDICINE</string>
+
+    <!-- Family list adapter-->
+    <string name="remove">Remove?</string>
+    <string name="sureRemove">Are you sure to remove</string>
+    <string name="removed">Removed</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="updating">Updating</string>
+    <string name="enterName">Enter Name</string>
+    <!--medicine list adapter-->
+    <string name="removing">removing</string>
+    <string name="enterMedName">Enter Medicine Name</string>
+    <!--AlarmFragment-->
+    <string name="add">Add</string>
+    <!-- alarm receiver-->
+    <string name="medicineTime">Medicine Time!</string>
+    <string name="hasToTake">has to take</string>
+    <string name="skip">SKIP</string>
+    <string name="taken">TAKEN</string>
+
+    <!-- bigviewNotiSevice-->
+    <string name="runShort">Running Short of Medicine!</string>
+    <string name="isRunOut">is running out of</string>
+    <string name="runOut">Running Out of Medicine!</string>
+    <string name="only">only</string>
+    <string name="left">left</string>
+    <string name="none">none</string>
+
+    <!-- family fragment-->
+    <string name="addNewMember">Add New Member</string>
+    <string name="adding">adding</string>
+
+    <!-- medicine fragment-->
+    <string name="addNewMed">Add New Medicine</string>
+    <string name="added">Added</string>
+
+    <!--member activity-->
+    <string name="members">Members</string>
+    <string name="days">Days</string>
+
+    <!--Emergency activity-->
+    <string name="emergencyMode">Turn on Emergency Mode</string>
+    <string name="prefEmerMode">com.akshenkadakia.prefKey.EmeregencyMode</string>
+    <string name="prefn1">com.akshenkadakia.prefKey.EmeregencyModeN1</string>
+    <string name="prefn2">com.akshenkadakia.prefKey.EmeregencyModeN2</string>
+    <string name="prefn3">com.akshenkadakia.prefKey.EmeregencyModeN3</string>
+    <string name="prefCall102">com.akshenkadakia.prefKey.EmeregencyModeCall102</string>
+    <string name="number1">Number 1</string>
+    <string name="number2">Number 2</string>
+    <string name="number3">Number 3</string>
+    <string name="enterPhoneNumber">Enter Phone Number</string>
+    <string name="contactEmer">Call 102</string>
+
+    <!--doubletapreceiver-->
+    <string name="call102">Are you sure?</string>
+    <string name="call102message">Message will be sent to your Emergency contacts.</string>
+</resources>

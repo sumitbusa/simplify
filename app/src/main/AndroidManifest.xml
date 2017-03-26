@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akshenkadakia.homeutility">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".medicine.MemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".medicine.MedicineActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".calender.NumbersActivity"></activity>
+        <activity
+            android:name=".worker.NumbersActivity"
+            android:label="@string/category_numbers">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".home.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".worker.ironman"
+            android:label="Ironman">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".worker.NumbersActivity" />
+        </activity>
+        <activity
+            android:name=".worker.milkman"
+            android:label="milkman">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".worker.NumbersActivity" />
+        </activity>
+        <activity
+            android:name=".worker.payment"
+            android:label="payment">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".worker.NumbersActivity" />
+        </activity>
+
+        <receiver
+            android:name=".medicine.RebootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".medicine.AlarmReceiver"
+            android:enabled="true" />
+
+        <activity
+            android:name=".medicine.NotificationDialog"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+
+        <service android:name=".medicine.BigViewNotiService" />
+
+        <activity
+            android:name=".medicine.DayListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".emergency.EmergencyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calender.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".emergency.DoubleTapService"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".emergency.EmergencyDialog"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" />
+        <activity
+            android:name=".home.SettingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".newspaper.InitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".newspaper.ListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".newspaper.OfflineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".worker.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

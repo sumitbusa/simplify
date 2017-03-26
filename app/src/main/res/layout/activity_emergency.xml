@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akshenkadakia.homeutility.emergency.EmergencyActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/emergencyToggleBar"
+        android:background="@color/outlineColor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergencyMode"
+            android:textSize="@dimen/normalText"
+            android:paddingLeft="@dimen/marginLeft"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emergencyButton"
+            android:textSize="@dimen/normalText"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/emergencySettings"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/emergencyToggleBar"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number1"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/number1Text"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/normalText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="@dimen/normalText"
+            android:hint="@string/enterPhoneNumber"
+            android:id="@+id/number1Input"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:layout_alignTop="@id/number1Text"
+            android:layout_toRightOf="@id/number1Text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number2"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/number2Text"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:layout_below="@id/number1Text"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/normalText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="@dimen/normalText"
+            android:padding="10dp"
+            android:background="@drawable/input_outline"
+            android:id="@+id/number2Input"
+            android:hint="@string/enterPhoneNumber"
+            android:layout_alignTop="@id/number2Text"
+            android:layout_toRightOf="@id/number2Text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number3"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/number3Text"
+            android:paddingTop="10dp"
+            android:paddingRight="5dp"
+            android:layout_below="@id/number2Text"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/normalText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textSize="@dimen/normalText"
+            android:hint="@string/enterPhoneNumber"
+            android:id="@+id/number3Input"
+            android:padding="10dp"
+
+            android:layout_alignTop="@id/number3Text"
+            android:background="@drawable/input_outline"
+            android:layout_toRightOf="@id/number3Text"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/normalText"
+            android:layout_below="@id/number3Text"
+            android:text="@string/contactEmer"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/contactEmergency"/>
+    </RelativeLayout>
+
+</RelativeLayout>

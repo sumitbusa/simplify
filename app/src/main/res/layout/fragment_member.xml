@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".FamilyFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Members"
+        android:textSize="@dimen/textSize"
+        android:background="@android:color/white"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="@dimen/marginLeft"
+        android:alpha="0.97"
+        android:id="@+id/medicineCurrentMember"
+        android:layout_alignParentLeft="true"/>
+
+    <View
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/divider"
+        android:id="@+id/medicineUpperDivider"
+        android:layout_below="@id/medicineCurrentMember"/>
+
+    <ListView
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignLeft="@id/medicineCurrentMember"
+        android:layout_alignRight="@id/medicineCurrentMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicineUpperDivider"
+        android:id="@+id/medicineMemberListContainer"
+        android:background="@drawable/input_outline"
+        android:orientation="horizontal"
+        android:divider="@color/divider"
+        android:dividerHeight="0dp">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Member"
+        android:textSize="@dimen/textSmallSize"
+        android:id="@+id/fabAddMemberText"
+        android:layout_above="@+id/fabAddMember"
+        android:layout_marginLeft="-30dp"
+        android:layout_alignLeft="@+id/fabAddMember"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabAddMember"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_add_black_48dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>
