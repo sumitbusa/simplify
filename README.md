@@ -1,6 +1,6 @@
 # simplify
 An app to simplify life of old aged.
-(created at Abhiyantriki'16 Hackathon By [Akshen Kadakia](https://github.com/akshenk8),[Vivek Vora](https://github.com/vivekv0297),[Parth Velani](https://github.com/parthvelani7),Harsh Chheda and [Sumit Busa](https://github.com/sumitbusa))
+(created at DBIT Mumbai-CSI Hackathon By [Akshen Kadakia](https://github.com/akshenk8),[Vivek Vora](https://github.com/vivekv0297),[Parth Velani](https://github.com/parthvelani7),Harsh Chheda and [Sumit Busa](https://github.com/sumitbusa))
 
 App is available in 3 languages: English,Hindi and Marathi.
 Features:
